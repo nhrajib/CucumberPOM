@@ -1,0 +1,4 @@
+00:37:21.708 [main] INFO  FrameworkScratch.ValidateTitle - Browser is Invoked
+00:37:31.992 [main] INFO  FrameworkScratch.ValidateTitle - Home Page Open Successfully.
+00:37:32.046 [main] INFO  FrameworkScratch.ValidateTitle - Title Validation Successfull.
+00:37:32.085 [main] INFO  FrameworkScratch.ValidateTitle - Top Navigation is Displayed!

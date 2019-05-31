@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38939" started-at="2019-05-31T02:02:44Z" finished-at="2019-05-31T02:03:23Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:CucumberOptions.TestRunner@7085bdee]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="User Login" duration-ms="38939" started-at="2019-05-31T02:02:44Z" finished-at="2019-05-31T02:03:23Z">
+      <class name="CucumberOptions.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:CucumberOptions.TestRunner@7085bdee]" name="setUpClass" is-config="true" duration-ms="140" started-at="2019-05-31T02:02:44Z" finished-at="2019-05-31T02:02:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:CucumberOptions.TestRunner@7085bdee]" name="runScenario" duration-ms="20574" started-at="2019-05-31T02:02:45Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-05-31T02:03:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive test validating login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login into Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:CucumberOptions.TestRunner@7085bdee]" name="runScenario" duration-ms="18160" started-at="2019-05-31T02:03:05Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-05-31T02:03:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive test validating login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login into Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:CucumberOptions.TestRunner@7085bdee]" name="tearDownClass" is-config="true" duration-ms="6" started-at="2019-05-31T02:03:23Z" finished-at="2019-05-31T02:03:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- CucumberOptions.TestRunner -->
+    </test> <!-- User Login -->
+  </suite> <!-- Suite -->
+</testng-results>
